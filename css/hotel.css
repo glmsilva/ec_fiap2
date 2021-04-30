@@ -48,7 +48,7 @@ nav {
     border: none;
     color: #FFF;
     font-weight: bold;    
-    background: #568FF1;    
+    background: #3738B7;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     margin: 0px 16px;
     cursor: pointer;
@@ -56,7 +56,7 @@ nav {
 
 .paginacao {
     margin: 15% 0;
-    color: #568FF1;
+    color: #3738B7;
 }
 
 .hotel__title {
@@ -65,7 +65,7 @@ nav {
 }
 
 .hotel__review {
-    color: #568FF1;
+    color: #3738B7;
 }
 
 .hotel__img {
@@ -78,7 +78,7 @@ nav {
 }
 
 a {
-    color: #568FF1;
+    color: #3738B7;
 }
 
 .hotel__desc {
@@ -88,7 +88,7 @@ a {
 
 .hotel__desc, 
 li {
-    color: #568FF1;
+    color: #3738B7;
 }
 
 p {
@@ -112,7 +112,7 @@ ul {
 
 .comodidades__title {
     font-size: 1.5em;
-    color: #568FF1;
+    color: #3738B7;
     font-weight: 400;
 }
 
@@ -128,7 +128,7 @@ ul {
 }
 
 .avaliacoes__title {
-    color: #568FF1;
+    color: #3738B7;
     font-size: 1.5em;
     font-weight: 400;
 }
@@ -152,7 +152,7 @@ ul {
 
 .avaliacoes__box-pontuacao p:first-of-type,
 .avaliacoes__box-pontuacao p:nth-child(2) {
-    color: #568FF1;
+    color: #3738B7;
     line-height: 0;
     font-size: 1.5em;
 }
@@ -169,7 +169,7 @@ ul {
 .avaliacoes__botao {
     width: 150px;
     height: 50px;
-    background-color: #568FF1;
+    background-color: #3738B7;
     color: white;
     border: none;
     box-shadow: 0px 4px 31px rgba(28, 88, 65, 0.15);
@@ -178,7 +178,7 @@ ul {
 }
 
 .avaliacoes__botao:hover {
-    background-color: #568ff1c2;
+    background-color: #3738B7c2;
     cursor: pointer;
 }
 
@@ -196,7 +196,7 @@ ul {
 }
 
 .disponibilidade__botao:hover {
-    background-color: #568FF1;
+    background-color: #3738B7;
     color: #FFF;
     cursor: pointer;
 }

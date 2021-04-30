@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -11,41 +11,42 @@
 </head>
 
 <body>
-    <div class="container">
-        <!-- Navbar -->
+<div class="container">
+    <!-- Navbar -->
 
-        <nav class="navbar">
-            <section class="navbar__logo">Traveller</section>
-            <section class="navbar__menu">
-                <a href="">Inicio</a>
-                <a href="">Onde se Hospedar</a>
-                <a href="">Como Chegar</a>
-                <a href="">Alugue seu Carro</a>
-                <a href="">Gastronomia</a>
-            </section>
-            <section class="navbar__menu__botao"><button class="navbar__button-login">Login</button>
-                <i class=" navbar__menu-icon fas fa-bars"></i>
-            </section>
-        </nav>
+    <nav class="navbar">
+        <section class="navbar__logo">Traveller</section>
+        <section class="navbar__menu">
+            <a href="">Inicio</a>
+            <a href="">Onde se Hospedar</a>
+            <a href="">Como Chegar</a>
+            <a href="">Alugue seu Carro</a>
+            <a href="">Gastronomia</a>
+        </section>
+        <section class="navbar__menu__botao">
+            <button class="navbar__button-login">Login</button>
+            <i class=" navbar__menu-icon fas fa-bars"></i>
+        </section>
+    </nav>
 
-        <!-- Header-->
-        <header>
-            <h1 class="header__titulo">Onde se Hospedar</h1>
-            <p class="header__texto">Aqui você encontra os melhores hoteis da região que vão te oferecer tudo para sua
-                estadia</p>
-        </header>
-        <!-- Seção Principal -->
-        <main class="hotel">
-            <!-- Caixa de busca de hoteis por localização e data -->
-            <div class="hotel__pesquisa">
-                <input type="text" name="" id="" class="hotel__pesquisa-local" placeholder="Localização">
-                <input type="date" name="" id="" class="hotel__pesquisa-data" placeholder="Data">
-                <button class="hotel__pesquisa-botao"><i class="fas fa-search"></i></button>
-            </div>
-            
-            <!-- Seção de filtro lateral desktop e botão p/ mobile-->
-            <section class="wrapper">
-                <button class="filtro__botao"><i class="fas fa-sliders-h"> Filtro</i></button>
+    <!-- Header-->
+    <header>
+        <h1 class="header__titulo">Onde se Hospedar</h1>
+        <p class="header__texto">Aqui você encontra os melhores hoteis da região que vão te oferecer tudo para sua
+            estadia</p>
+    </header>
+    <!-- Seção Principal -->
+    <main class="hotel">
+        <!-- Caixa de busca de hoteis por localização e data -->
+        <div class="hotel__pesquisa">
+            <input type="text" class="hotel__pesquisa-local" placeholder="Localização">
+            <input type="date" class="hotel__pesquisa-data" placeholder="Data">
+            <button class="hotel__pesquisa-botao" aria-label="Pesquisar"><i class="fas fa-search"></i></button>
+        </div>
+
+        <!-- Seção de filtro lateral desktop e botão p/ mobile-->
+        <section class="wrapper">
+            <button class="filtro__botao" aria-label="Filtrar"><i class="fas fa-sliders-h"> Filtro</i></button>
             <aside class="filtro">
                 <div class="filtro__checkbox">
                     <p>Comodidades</p>
@@ -76,70 +77,78 @@
 
             </aside>
 
-            
+
             <!-- Fim da Seção de Filtro -->
             <!-- Seção de cards de hoteis populares -->
             <article class="hotel__booking">
                 <h2>Hoteis Populares</h2>
-            <p>4 resultados encontrados</p>
-            <section class="card-wrapper">
-                <div class="card">
-                    <a href="/hotel/bluetreepremium.html"><img src="/imagens/hotel-blue-tree-towers.jpg" alt="" srcset="" class="hotel__img"></a> 
-                    <h3 class="hotel__title">Blue Tree Premium Morumbi</h3>
-                    <!-- Estrelas vem aqui-->
-                     <p class="hotel__review"><i class="fas fa-star"></i>0/5(0 Avaliações)</p>
-                     <button class="card__botao">Exibir Hotel</button> 
-                </div>
-                <div class="card">
-                    <img src="imagens/hotel-bourbon-ibirapuera.jpg" alt="Imagem do hotel Bourbon Ibirapuera" class="hotel__img">
-                    <h3 class="hotel__title">Bourbon Ibirapuera</h3>
-                    <!-- Estrelas vem aqui-->
-                     <p class="hotel__review"><i class="fas fa-star"></i>0/5(0 Avaliações)</p>
-                     <button class="card__botao">Exibir Hotel</button> 
-                </div>
-                <div class="card">
-                    <img src="imagens/hotel-comfort-ibirapuera.jpg" alt="Imagem do hotel Comfort Ibirapuera" class="hotel__img">
-                    <h3 class="hotel__title">Hotel Comfort Ibirapuera</h3>
-                    <!-- Estrelas vem aqui-->
-                     <p class="hotel__review"><i class="fas fa-star"></i>0/5(0 Avaliações)</p>
-                     <button class="card__botao">Exibir Hotel</button> 
-                </div>
-                <div class="card">
-                    <img src="imagens/hotel-golden-tulip-paulista-plaza.jpg" alt="Imagem do hotel Golden Tulipa Paulista Plaza" class="hotel__img">
-                    <h3 class="hotel__title">Golden Tulipa Paulista Plaza</h3>
-                    <!-- Estrelas vem aqui-->
-                     <p class="hotel__review"><i class="fas fa-star"></i>0/5(0 Avaliações)</p>
-                     <button class="card__botao">Exibir Hotel</button> 
-                </div>
-        
-            </section>
-            </section>
-            
-            
+                <p>4 resultados encontrados</p>
+                <section class="card-wrapper">
+                    <div class="card">
+                        <a href="/hotel/bluetreepremium.html"><img src="/imagens/hotel-blue-tree-towers.jpg"
+                                                                   alt="Fachada do Hotel Tree Premium Morumbi"
+                                                                   class="hotel__img"></a>
+                        <h3 class="hotel__title">Blue Tree Premium Morumbi</h3>
+                        <!-- Estrelas vem aqui-->
+                        <p class="hotel__review"><i class="fas fa-star"></i>0/5(0 Avaliações)</p>
+                        <button class="card__botao">Exibir Hotel</button>
+                    </div>
+                    <div class="card">
+                        <a href="#"><img src="imagens/hotel-bourbon-ibirapuera.jpg"
+                                         alt="Imagem do hotel Bourbon Ibirapuera" class="hotel__img"></a>
+
+                        <h3 class="hotel__title">Bourbon Ibirapuera</h3>
+                        <!-- Estrelas vem aqui-->
+                        <p class="hotel__review"><i class="fas fa-star"></i>0/5(0 Avaliações)</p>
+                        <button class="card__botao">Exibir Hotel</button>
+                    </div>
+                    <div class="card">
+                        <a href="#"> <img src="imagens/hotel-comfort-ibirapuera.jpg"
+                                          alt="Imagem do hotel Comfort Ibirapuera" class="hotel__img"> </a>
+
+                        <h3 class="hotel__title">Hotel Comfort Ibirapuera</h3>
+                        <!-- Estrelas vem aqui-->
+                        <p class="hotel__review"><i class="fas fa-star"></i>0/5(0 Avaliações)</p>
+                        <button class="card__botao">Exibir Hotel</button>
+                    </div>
+                    <div class="card">
+                        <a href="#"> <img src="imagens/hotel-golden-tulip-paulista-plaza.jpg"
+                                          alt="Imagem do hotel Golden Tulipa Paulista Plaza" class="hotel__img"> </a>
+
+                        <h3 class="hotel__title">Golden Tulipa Paulista Plaza</h3>
+                        <!-- Estrelas vem aqui-->
+                        <p class="hotel__review"><i class="fas fa-star"></i>0/5(0 Avaliações)</p>
+                        <button class="card__botao">Exibir Hotel</button>
+                    </div>
+
+                </section>
+            </article>
+        </section>
+
     </main>
     <!-- Fim seção principal -->
-    </div>
-        <!-- Footer -->
-        <footer>
-            <h3>Traveller</h3>
-            <ul>
-                <li>
-                    Inicio
-                </li>
-                <li>
-                    Onde Se Hospedar
-                </li>
-                <li>
-                    Como Chegar
-                </li>
-                <li>
-                    Alugue Seu Carro
-                </li>
-                <li>
-                    Gastronomia
-                </li>
-            </ul>
-        </footer>
+</div>
+<!-- Footer -->
+<footer>
+    <h3>Traveller</h3>
+    <ul>
+        <li>
+            Inicio
+        </li>
+        <li>
+            Onde Se Hospedar
+        </li>
+        <li>
+            Como Chegar
+        </li>
+        <li>
+            Alugue Seu Carro
+        </li>
+        <li>
+            Gastronomia
+        </li>
+    </ul>
+</footer>
 </body>
 
 </html>

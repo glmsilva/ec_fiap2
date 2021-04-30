@@ -113,12 +113,12 @@ input {
     border-bottom-right-radius: 30px;
     border: none;
     padding: 20px;
-    background-color: #568FF1;
+    background-color: #3738B7;
     cursor: pointer;
 }
 
 .hotel__pesquisa-botao:hover {
-    background-color: #568ff1c7;
+    background-color: #3738B7c7;
 }
 
 .fa-search {
@@ -189,7 +189,7 @@ border-radius: 10px;
 
 .card__botao {
     margin-top: 10px;
-    background-color: #568FF1;
+    background-color: #3738B7;
     color: white;
     width: 150px;
     border: none;
@@ -202,7 +202,7 @@ border-radius: 10px;
 }
 
 .card__botao:hover {
-    background-color: #568ff1c7;
+    background-color: #3738B7c7;
 }
 
 footer {
